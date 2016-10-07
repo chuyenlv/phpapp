@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Styleguide</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- <script src="js/script.js"></script> -->
+</head>
+<body class="navbar-is-fixed-top" data-spy="scroll" data-target=".sticky-nav">
+  <header id="navbar" role="banner" class="navbar navbar-fixed-top navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="name navbar-brand" href="#" title="Home">LC - Blog</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <div class="navbar-collapse collapse">
+        <nav role="navigation">
+          <ul class="menu nav navbar-nav">
+            <li class="first active leaf"><a href="#" class="active">HTML tags</a></li>
+            <li class="last leaf"><a href="#">Style Guide</a></li>
+          </ul>
+          <ul class="menu nav navbar-nav secondary">
+            <li class="first leaf"><a href="#">My account</a></li>
+            <li class="last leaf"><a href="#">Log out</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="main-container">
+    <div class="box-hero">
+      <div class="box-hero-image-bg">
+        <picture>
+          <source media="(min-width: 1024px)" srcset="https://unsplash.it/1920/300?random">
+          <source media="(min-width: 768px)" srcset="https://unsplash.it/1024/300?random">
+          <img src="https://unsplash.it/768/300?random" alt="bg image">
+        </picture>
+      </div>
+      <div class="container box-hero-content text-center">
+        <h1>Targeted Attack Protection</h1>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus porttitor.</p>
+        <div class="cta">
+          <a href="#" class="btn btn-primary">Watch webinar</a>
+          <a href="#" class="btn btn-danger">Request demo</a>
+          <a href="#" class="btn btn-info">Read whitepaper</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <ol class="breadcrumb">
+        <li><a href="/">Home</a></li>
+        <li class="active">Style Guide Documentation</li>
+      </ol>
+    </div>
+
+    <nav class="sticky-nav navbar">
+      <div class="container">
+        <ul class="nav navbar-nav">
+          <li><a href="#media" class="page-scroll">Media</a></li>
+          <li><a href="#list" class="page-scroll">List articles</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <div class="grid-article">
+            <div class="article-item row odd">
+              <div class="article-item-image">
+                <picture>
+                  <source srcset="https://unsplash.it/384/384?random 1x, https://unsplash.it/768/768?random 2x" media="screen and (min-width: 481px)" type="image/jpeg"></source>
+                  <img srcset="https://unsplash.it/480/300?random">
+                </picture>
+              </div>
+              <div class="article-item-content">
+                <div class="short-date">August 12, 2016</div>
+                <h4 class="media-heading"><a href="#">TAP Mobile Defense</a></h4>
+                <p>Learn how TAP Mobile Defense provides visibility and automated workflow for managing risk in your environment.</p>
+              </div>
+            </div>
+            <div class="article-item row even">
+              <div class="article-item-image">
+                <picture>
+                  <source srcset="https://unsplash.it/384/384?random 1x, https://unsplash.it/768/768?random 2x" media="screen and (min-width: 481px)" type="image/jpeg"></source>
+                  <img srcset="https://unsplash.it/480/300?random">
+                </picture>
+              </div>
+              <div class="article-item-content">
+                <div class="short-date">August 11, 2016</div>
+                <h4 class="media-heading"><a href="#">Mobile Defense</a></h4>
+                <p>Learn how TAP Mobile Defense provides visibility and automated workflow for managing risk in your environment.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-lg-8">
+          <div class="list" id="media">
+            <div class="media">
+              <div class="media-left media-middle">
+                <a href="#">
+                  <img src="https://unsplash.it/75/75?random" alt="ppoint image">
+                </a>
+              </div>
+              <div class="media-body">
+                <div class="short-date">August 11, 2016</div>
+                <h4 class="media-heading"><a href="#">TAP Mobile Defense</a></h4>
+                <p>Learn how TAP Mobile Defense provides visibility and automated workflow for managing risk in your environment.</p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <a href="#">
+                  <img src="https://unsplash.it/75/75?random" alt="ppoint image">
+                </a>
+              </div>
+              <div class="media-body">
+                <div class="short-date">August 11, 2016</div>
+                <h4 class="media-heading"><a href="#">TAP Mobile Defense - Video</a></h4>
+                <p>Learn how TAP Mobile Defense provides visibility and automated workflow for managing risk in your environment.</p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <a href="#">
+                  <img src="https://unsplash.it/75/75?random" alt="ppoint image">
+                </a>
+              </div>
+              <div class="media-body">
+                <div class="short-date">August 11, 2016</div>
+                <h4 class="media-heading"><a href="#">TAP Mobile Defense - Video Overview</a></h4>
+                <p>Learn how TAP Mobile Defense provides visibility and automated workflow for managing risk in your environment.</p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left media-middle">
+                <a href="#">
+                  <img src="https://unsplash.it/75/75?random" alt="ppoint image">
+                </a>
+              </div>
+              <div class="media-body">
+                <div class="short-date">August 11, 2016</div>
+                <h4 class="media-heading"><a href="#">TAP Mobile Defense</a></h4>
+                <p>Learn how TAP Mobile Defense provides visibility and automated workflow for managing risk in your environment.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br/>
+
+    <div class="list container" id="list">
+      <div class="list-item">
+        <div class="list-item-text">
+          <h2><a href="#">Win a 360 Camera at DrupalCon Dublin</span></a></h2>
+          <div class="author">
+            <a href="#"><img src="https://unsplash.it/30/30?random"></a>
+            <span>Thought by <a href="#">Leigh Anderson</a>, Marketing Content Writer</span>
+          </div>
+
+          <div class="summary"><p dir="ltr">At FFW, we’re packing our bags and grabbing our passports as we prepare to travel to Ireland for next week’s DrupalCon. Expect to see us in sessions, on signs, and at the exhibit hall: we’re sponsors, we’re speakers, and we’re excited to be there.</p></div>
+
+          <div class="list-item-text-meta">
+            <small>September 20, 2016</small>
+            <ul class="links field-items">
+              <li><a href="#" property="schema:keywords" hreflang="en">Drupalcon</a></li>
+              <li><a href="#" property="schema:keywords" hreflang="en">Drupal 8</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="list-item-image">
+          <a href="#">
+            <picture>
+              <source srcset="https://unsplash.it/200/200?random 1x, https://unsplash.it/400/400?random 2x" media="screen and (min-width: 1201px)" type="image/jpeg"></source>
+              <source srcset="https://unsplash.it/150/150?random 1x, https://unsplash.it/300/300?random 2x" media="screen and (min-width: 769px)" type="image/jpeg"></source>
+              <img srcset="https://unsplash.it/200/200?random">
+            </picture>
+          </a>
+        </div>
+      </div>
+
+      <div class="list-item">
+        <div class="list-item-text">
+          <h2><a href="#">The ABC's of Drupal: Dev Ops, Display and Distribution</span></a></h2>
+          <div class="author">
+            <a href="/blog/9961/author"><img src="https://unsplash.it/30/30?random"></a>
+            <span>Thought by <a href="#">Ray Saltini</a>, Director, FFW Center of Excellence</span>
+          </div>
+
+          <div class="summary"><p dir="ltr">For anyone who's ever looked up a definition of a Drupal term and been left wondering what it all means, here are some practical real world explanations you can use to navigate the Drupalverse. Watch this space and use comments to send us your feedback and requests.</p></div>
+
+          <div class="list-item-text-meta">
+            <small>August 24, 2016</small>
+            <ul class="links field-items">
+              <li><a href="#" property="schema:keywords" hreflang="en">Drupal</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="list-item-image">
+          <a href="#">
+            <picture>
+              <source srcset="https://unsplash.it/200/200?random 1x, https://unsplash.it/400/400?random 2x" media="screen and (min-width: 1201px)" type="image/jpeg"></source>
+              <source srcset="https://unsplash.it/150/150?random 1x, https://unsplash.it/300/300?random 2x" media="screen and (min-width: 769px)" type="image/jpeg"></source>
+              <img srcset="https://unsplash.it/200/200?random">
+            </picture>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="region region-footer">
+        <section id="block-system-powered-by" class="block block-system contextual-links-region clearfix">
+          <span>Develop by <a href="#">@LC</a></span>
+        </section>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
